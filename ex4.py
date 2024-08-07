@@ -1,5 +1,6 @@
-#pedir um numero pra pessoa 
+#com virgula td da certo, nao precisa fazer 1 por 1 ".format() () "
+nome =  input("Diga seu nome: ")
+idade = int( input("Diga sua idade: "))
+cidade =   input("Diga que cidade voce mora: ")
 
-num1 = input("Digite um numero: ")
-print(num1*4)
-print("O seu numero e: ")
+print("Seu nome e: {}Sua idade e: {} Sua cidade e: {}".format(nome,idade,cidade))

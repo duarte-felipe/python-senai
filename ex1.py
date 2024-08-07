@@ -1,8 +1,4 @@
-nome= input("Digite sua nome: ") 
-endereço= input("Digite seu endereço: ")
-idade= input("Digite sua idade: ")
-sexo= input("Digite seu sexo: ")
-profissao= input("Digite sua profissao: ")
+idade1 = int( input ("Diga sua idade: "))
+idade2 = int( input ("Diga outra idade: "))
 
-print("{}, obrigado por responder".format(nome))
-
+print("A Diferença de idade de voces e de: {}" .format(idade1-idade2))

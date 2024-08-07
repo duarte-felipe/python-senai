@@ -1,4 +1,3 @@
-data= input("Digite sua data de nascimento: ")
-data2 = 2024 (data)
+palavra = str( input("Me fale uma palavra e te direi quantas letras ela tem! "))
 
-print("sua idade e: {}".format (data))
+print("Sua palavra tem {} letras".format(len(palavra)) ) 

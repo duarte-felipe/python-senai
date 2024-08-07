@@ -1,3 +1,3 @@
-peso = int (input("Digite seu peso: "))
-altur = int (input("Digite sua altura: "))
-print ("Seu IMC e: {}".format((peso / (altura * altura))))
+kg = float( input("Digite seu peso em kg: "))
+
+print("Seu peso e: {}".format(kg))

@@ -1,10 +1,9 @@
-num1 = input("Digite um numero: ")
-num2 =  input("Digite outro numero: ")
-num3 =  input("Digite outro numero: ")
-num4 =  input("Digite outro numero: ")
-num5 =  input("Digite outro numero: ")
-num6 =  input("Digite outro numero: ")
+# quantas letras o msm tem         len(frase 
+# pra icar minusculo              a coisa.lower()
+#pra ficar maiusculo             a coisa.upper()
 
-soma = (num1+num2+num3+num4+num5+num6)
+minusculo = input("Diga seu sobrenome: ")
+maiusculo = input("Diga seu sobrenome novamente: ")
 
-print ("a soma dos seus numeros e:{} ".format (soma))
+print("{} ".format(minusculo.lower()))
+print("{} ".format(maiusculo.upper()))
