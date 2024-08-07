@@ -1,7 +1,4 @@
-num = int(input("Digite um numero: "))
-
-if(num==0):
-    print("Esse numero e 0: ")
-
-else:
-    print("Esse numero nao e 0: ")
+num1 = 80  
+for i in range(80):
+    num1-=1 #num1 = num1-1
+    print(num1)

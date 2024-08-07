@@ -1,8 +1,6 @@
-num1= int(input("Digite um numero: "))
-num2 = int(input("Digite outro numero: "))
+#Leia o nome do usuário e escreva o nome dele na tela 10 vezes.
+msg = input("Escreva seu nome: ")
 
-if(num1<num2):
-    print("O primeiro numero e menor!")
-
-else:
-    print("O primeiro numero e maior!")
+for i in range(10):
+    i+1== 10 
+    print(msg)

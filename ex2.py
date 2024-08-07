@@ -1,7 +1,5 @@
-num = int(input("Digite um numero: "))
+msg = input("Escreva uma frase: ")
 
-if(num>=-0):
-    print("O numero e positivo: ")
-
-else:
-    print("O numero e negativo: ")
+for i in range(5):
+    i+1== 5 
+    print(msg)

@@ -1,8 +1,5 @@
-num1= int(input("Digite um numero: "))
-num2 = int(input("Digite outro numero: "))
+inf = input("Eu gosto de estudar algoritimos")
 
-if(num1>num2):
-    print("O primeiro numero e maior!")
-
-else:
-    print("O primeiro numero e menor!")
+for i in range(20):
+    i+1== 20
+    print(inf)
