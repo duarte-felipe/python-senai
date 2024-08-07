@@ -1,4 +1,5 @@
-palavra1 = input("Digite uma palavra ")
-palavra2 = input("Digite outra palvra ")
+#pedir um numero pra pessoa 
 
-print(palavra1 + palavra2)
+num1 = input("Digite um numero: ")
+print(num1*4)
+print("O seu numero e: ")

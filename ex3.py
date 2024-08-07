@@ -1,5 +1,4 @@
-numero= input("digite o numero para virar o dobro")
+data= input("Digite sua data de nascimento: ")
+data2 = 2024 (data)
 
-print(f"o numero dobrado é {int(numero)*2}")
-
-#print({},{}.format(1,2))
+print("sua idade e: {}".format (data))

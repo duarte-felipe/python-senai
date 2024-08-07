@@ -1,5 +1,6 @@
-num1 = input("Digite um numero ")
-num2 = input("Digite outro numero ")
+num1= int (input("Digite um numero: "))
+num2= int(input("Digite outro numero: "))
 
-soma=num1+num2
-print("a soma dos numeros ficou em ", soma)
+print (int(num1/num2))
+
+print("A divisao dos seus numeros ficou em: {}".format(num1/num2))
