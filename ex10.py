@@ -1,9 +1,8 @@
-#area = largura*altura
-#tinta = area/2
+idade = int(input("Digite a i idade"))
+#if se for maior de 18
+if(idade>=18):
+    print("Pode entrar na festa!")
+#se for menor de 18
+else:
+    print("Nao pode entrar na festa!")
 
-largura = float( input("DIgite a largura da parede em metros: "))
-altura = float( input("Digite a altura da parede em metros"))
-area = largura*altura
-print("A area da parede e de: {}".format(area))
-
-print("Para pintar a oaarede sao necessarias {} latas de tinta. ".format(area/2))

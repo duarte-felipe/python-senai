@@ -1,5 +1,8 @@
-#(N1+N2) / 2
-nota1 = float( input("Primeira nota: "))
-nota2 = float( input("Segunda nota: "))
+num1= int(input("Digite um numero: "))
+num2 = int(input("Digite outro numero: "))
 
-print("A media das notas sao: {}".format((nota1+nota2)/2))
+if(num1!=num2):
+    print("O primeiro numero e diferente do outro!")
+
+else:
+    print("O primeiro numero nao e diferente ao outro!")

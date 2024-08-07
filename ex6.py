@@ -1,4 +1,8 @@
-num = int( input("Digite um numero: "))
-num1 = int( input("Digite mais um numero: "))
+num1= int(input("Digite um numero: "))
+num2 = int(input("Digite outro numero: "))
 
-print("A media deles e de: {}".format((num+num1) /2))
+if(num1>num2):
+    print("O primeiro numero e maior!")
+
+else:
+    print("O primeiro numero e menor!")

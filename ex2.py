@@ -1,9 +1,7 @@
-# quantas letras o msm tem         len(frase 
-# pra icar minusculo              a coisa.lower()
-#pra ficar maiusculo             a coisa.upper()
+num = int(input("Digite um numero: "))
 
-minusculo = input("Diga seu sobrenome: ")
-maiusculo = input("Diga seu sobrenome novamente: ")
+if(num>=-0):
+    print("O numero e positivo: ")
 
-print("{} ".format(minusculo.lower()))
-print("{} ".format(maiusculo.upper()))
+else:
+    print("O numero e negativo: ")

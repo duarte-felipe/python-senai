@@ -1,3 +1,7 @@
-palavra = str( input("Me fale uma palavra e te direi quantas letras ela tem! "))
+num = int(input("Digite um numero: "))
 
-print("Sua palavra tem {} letras".format(len(palavra)) ) 
+if(num==0):
+    print("Esse numero e 0: ")
+
+else:
+    print("Esse numero nao e 0: ")

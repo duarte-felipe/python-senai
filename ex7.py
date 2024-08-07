@@ -1,3 +1,8 @@
-kg = float( input("Digite seu peso em kg: "))
+num1= int(input("Digite um numero: "))
+num2 = int(input("Digite outro numero: "))
 
-print("Seu peso e: {}".format(kg))
+if(num1<num2):
+    print("O primeiro numero e menor!")
+
+else:
+    print("O primeiro numero e maior!")

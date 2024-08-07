@@ -1,3 +1,7 @@
-nome = input("Digite seu nome completo: ")
+num = int(input("Digite um numero: "))
 
-print("{} ".format(nome.lower()))
+if(num *1):
+    print("Esse numero e impar!")
+
+else:
+    print("Esse numero e par!")
