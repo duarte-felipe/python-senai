@@ -94,4 +94,51 @@ tupla_exemplo = ("a", "b")
 tupla_repetida = tupla_exemplo * 3
 print(tupla_repetida)  # Isso irá imprimir: ('a', 'b', 'a', 'b', 'a', 'b')
 
+#11
+
+# criando a tupla
+minha_tupla = (1, 2, 3, 4, 5)
+
+# Verificando se o elemento 3 está na tupla
+elemento = 3
+presente = elemento in minha_tupla
+
+print(presente)  # Saída
+
+#12
+
+# Definindo uma tupla
+minha_tupla = (1, 2, 3, 4, 2, 2, 5, 6)
+
+# Elemento que queremos contar
+elemento = 2
+
+# Contando o número de vezes que o elemento aparece na tupla
+quantidade = minha_tupla.count(elemento)
+
+print(f"O elemento {elemento} aparece {quantidade} vezes na tupla.")
+
+#13
+
+# Definindo uma tupla
+minha_tupla = (10, 20, 30, 40, 50)
+
+# Elemento que queremos encontrar
+elemento = 30
+
+# Encontrando o índice do elemento
+indice = minha_tupla.index(elemento)
+
+print(f"O elemento {elemento} está no índice {indice}.")
+
+#14
+
+# Definindo uma tupla
+minha_tupla = ()
+
+# Verificando se a tupla está vazia
+if not minha_tupla:
+    print("A tupla está vazia.")
+else:
+    print("A tupla não está vazia.")
 
