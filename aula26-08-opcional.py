@@ -63,3 +63,5 @@ else:
                #del capitais[BRASIL]
 
 #exercicos de teste
+
+# from sys import exit 
