@@ -9,3 +9,11 @@ deve_continuar = True
 #loop do jogo
 while deve_continuar:
 # Checando eventos
+    for event in pygame.event.get():
+    #se for um evento QUIT 
+        if event.type == pygame.QUIT:
+            deve_continuar = False
+
+#encerrando Pygame
+pygame.quit() 
+
